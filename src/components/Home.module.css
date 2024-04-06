@@ -1,0 +1,101 @@
+*{
+    scroll-behavior: smooth;
+}
+.HomeBox{
+    background-color: black;
+    height: 100vh;
+    background-image: url(./assets/3357684.jpg);
+    background-size: cover;
+    transition: 2s;
+}
+.Navbar{
+    position:fixed;
+    width: 100%;
+    color: white;
+}
+.info{
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding-top: 25vh;
+}
+.mywork{
+    margin-top: 60px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    border-color: aqua;
+    color: aqua;
+}
+.mywork:hover{
+    background-color: aqua;
+    color:rgb(4, 0, 38);
+}
+.intro{
+    font-size: 3.5vw;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+.intro span{
+    color: aqua;
+}
+.intro .p{
+    font-size: 7vw;
+}
+.arrow{
+    margin-top: 5vh;
+    font-size: 60px;
+    color: aqua;
+}
+.About{
+    background-color: rgb(4, 0, 38);
+}
+.linklogo{
+    /* border: 2px solid rgb(255, 255, 255); */
+    position: absolute;
+    height: 50vh;
+    width: 5vw;
+    top: 25vh;
+    left: 2vw;
+}
+.linklogo div{
+    /* border: 2px solid rgb(255, 255, 255); */
+    height: 5vw;
+    width: 5vw;
+    margin-bottom: 1.5vh;
+    border-radius: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    transition: 0.2s;
+}
+
+.linklogo div:hover{
+    height: 8vw;
+    width: 8vw;
+    font-size: 5vw;
+    transition: 0.2s;
+}
+.linklogo a{
+    text-decoration: none;
+}
+.linklogo a .youtube{
+    color: red;
+}
+.linklogo a .github{
+    color: rgb(0, 0, 0);
+}
+.linklogo a .linkedin{
+    color: rgb(4, 81, 222);
+}
+.linklogo a .mail{
+    color: rgb(96, 75, 87);
+}
+.linklogo a .phone{
+    color: rgb(22, 166, 22);
+}

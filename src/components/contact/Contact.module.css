@@ -1,0 +1,78 @@
+.ContactBox{
+    height: 100vh;
+    background-color:  rgb(4, 0, 38);
+    color: white;
+}
+.color{
+    color: rgb(4, 0, 38);
+    cursor:default;
+}
+.bigbox{
+    width: 90vw;
+    margin: auto;
+    margin-top: 8vh;
+    /* border: 2px solid whitesmoke; */
+}
+.my{
+    /* margin-top: 5vh; */
+    font-size: 3vw;
+    font-weight: bold;
+    color: aqua;
+}
+.skill{
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+.form{
+    margin-top: 6vh;
+    /* border: 2px solid whitesmoke; */
+    width: 45vw;
+    margin-left: 0.5vw;
+    color: gray;
+}
+.form input{
+    /* font-size: 30px; */
+    height: 5vh;
+    margin-top: 1.5vh;
+    margin-bottom: 4vh;
+    background-color:  rgb(5, 85, 116);
+    border: none;
+    padding-left: 10px;
+    color: rgb(255, 255, 255);
+}
+.name input{
+    width: 100%;
+}
+.cont{
+    /* border: 2px solid whitesmoke; */
+    width: 101.5%;
+    display: flex;
+    justify-content: space-between;
+}
+.cont input{
+    width: 21vw;
+}
+.message textarea{
+    width: 100%;
+    height: 20vh;
+    margin-top: 1.5vh;
+    padding-left: 10px;
+    padding-top: 10px;
+    background-color: rgb(5, 85, 116);
+    border: none;
+    color: white;
+}
+.form button{
+    margin-top: 4vh;
+    height: 40px;
+    width: 140px;
+    font-weight: bold;
+    background-color: transparent;
+    color: aqua;
+    border-color: aqua;
+    /* border-radius: 10px; */
+}
+.form button:hover{
+    background-color:aqua;
+    color: rgb(4, 0, 38);
+}

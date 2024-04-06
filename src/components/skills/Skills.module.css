@@ -1,0 +1,61 @@
+.SkillsBox{
+    height: 100vh;
+    background-color:  rgb(4, 0, 38);
+    color: white;
+    /* border: 2px solid white; */
+}
+.bigbox{
+    width: 90vw;
+    margin: auto;
+    margin-top: 8vh;
+}
+.SkillsBox input {
+    width: 100%;
+    accent-color: aqua;
+}
+.my{
+    /* margin-top: 5vh; */
+    font-size: 3vw;
+    font-weight: bold;
+    color: aqua;
+}
+.color{
+    color: rgb(4, 0, 38);
+    cursor:default;
+}
+.skill{
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+.box{
+    margin-top: 5vh;
+}
+.lang{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* border: 2px solid white; */
+    justify-content: space-between;
+}
+.langbox{
+    /* border: 2px solid white; */
+    width: 40vw;
+    height: 9vh;
+    margin-bottom: 8vh;
+}
+.per{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.program{
+    /* margin-top: 8px; */
+    font-size:2vw;
+    margin-left: 4px;
+    /* text-shadow:-10px 10px 5px white; */
+}
+.percentage{
+    /* margin-top: 10px; */
+    font-size: 2.5vw;
+    font-weight: bold;
+
+}

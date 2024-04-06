@@ -1,0 +1,56 @@
+.AboutBox{
+    height: 100vh;
+    background: url(../assets/3357683.jpg);
+    background-size: cover;
+    transition: 2s;
+    border-radius: 0% 0% 0% 50%;
+    /* display: flex; */
+}
+.pic {
+    width: 100%;
+    border-radius: 0% 0% 0% 50%;
+    overflow: hidden;
+    /* border: 2px solid white; */
+    height: 100vh;
+    display: flex;
+}
+.pic img{
+    height: 100vh;
+    width: 45vw;
+    border-radius: 0% 0% 0% 50%;
+    /* border: 2px solid white; */
+}
+.knowAbout{
+
+    width: 80%;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    margin-top: 20vh;
+}
+.knowinfo{
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+.knowAbout span{
+    font-size: 3vw;
+    color: aqua;
+}
+.aboutbtn button{
+    margin-right: 30px;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: bolder;
+    border-color: aqua;
+    background-color: transparent;
+    color: aqua;
+    font-size: 15px;
+    margin-top: 5vh;
+}
+.aboutbtn button:hover{
+    background-color: aqua;
+    color: rgb(4, 0, 38);
+}
+.AboutSec{
+    font-size: 1.5vw;
+}
