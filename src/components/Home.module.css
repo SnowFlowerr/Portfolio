@@ -46,9 +46,19 @@
     font-size: 7vw;
 }
 .arrow{
-    margin-top: 5vh;
     font-size: 60px;
     color: aqua;
+    /* border: 2px solid rgb(255, 255, 255); */
+    width: 4vw;
+    margin: auto;
+    margin-top: 5vh;
+    height: 25vh;
+    transition: 1s;
+}
+.arrow:hover{
+    padding-top: 25vh;
+    /* font-size: 70px;
+    transition: 1s; */
 }
 .About{
     background-color: rgb(4, 0, 38);
@@ -56,10 +66,10 @@
 .linklogo{
     /* border: 2px solid rgb(255, 255, 255); */
     position: absolute;
-    height: 50vh;
+    height: 55vh;
     width: 5vw;
-    top: 25vh;
-    left: 2vw;
+    top: 23vh;
+    left: 3vw;
 }
 .linklogo div{
     /* border: 2px solid rgb(255, 255, 255); */
@@ -76,9 +86,10 @@
 }
 
 .linklogo div:hover{
-    height: 8vw;
-    width: 8vw;
-    font-size: 5vw;
+    height: 9vw;
+    width: 9vw;
+    font-size: 6vw;
+    margin-left: -2vw;
     transition: 0.2s;
 }
 .linklogo a{

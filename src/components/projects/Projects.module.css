@@ -1,35 +1,46 @@
-.ProjectBox{
+.ProjectBox {
     height: 100vh;
-    background-color:  rgb(4, 0, 38);
+    background-color: rgb(4, 0, 38);
     color: white;
 }
-.color{
+
+.color {
     color: rgb(4, 0, 38);
-    cursor:default;
+    cursor: default;
 }
-.bigbox{
+
+.bigbox {
     width: 90vw;
     margin: auto;
     margin-top: 8vh;
     /* border: 2px solid whitesmoke; */
 }
-.my{
+
+.my {
     font-size: 3vw;
     color: aqua;
     font-weight: bold;
 }
-.mypro{
+
+.mypro {
     font-size: 4.5vw;
     font-weight: bold;
 }
-.proj{
+
+.proj {
     height: 31vh;
     /* border: 2px solid whitesmoke; */
     display: flex;
     margin-top: 4vh;
     justify-content: space-around;
 }
-.habbit, .note, .calc, .weather, .techi, .sign{
+
+.habbit,
+.note,
+.quiz,
+.weather,
+.techi,
+.sign {
     /* border: 2px solid whitesmoke; */
     width: 27vw;
     border-radius: 20px;
@@ -37,72 +48,88 @@
     background-size: 100% 100%;
     overflow: hidden;
 }
-.habbit{
+
+.habbit {
     background-image: url("../assets/Screenshot 2024-04-06 at 12.37.02 AM.png");
 }
-.note{
+
+.note {
     background-image: url("../assets/Screenshot 2024-04-06 at 12.37.40 AM.png");
 }
-.calc{
-    background-image: url("../assets/Screenshot 2024-04-06 at 12.40.07 AM.png");
+
+.quiz {
+    background-image: url("../assets/Screenshot 2024-04-11 at 10.37.55 PM.png");
 }
-.weather{
+
+.weather {
     background-image: url("../assets/Screenshot 2024-04-06 at 12.38.17 AM.png");
 }
-.techi{
+
+.techi {
     background-image: url("../assets/Screenshot 2024-04-06 at 12.38.43 AM.png");
 }
-.sign{
+
+.sign {
     background-image: url("../assets/Screenshot 2024-04-06 at 12.39.18 AM.png");
 }
-.habbit:hover{
+
+.habbit:hover {
     background-position: center;
     background-size: 105% 112%;
     transition: 0.5s;
-    
+
 }
-.note:hover{
+
+.note:hover {
     background-position: center;
     background-size: 105% 112%;
     transition: 0.5s;
 }
-.calc:hover{
+
+.quiz:hover {
     background-position: center;
     background-size: 110% 110%;
     transition: 0.5s;
 }
-.weather:hover{
+
+.weather:hover {
     background-position: center;
     background-size: 109% 111%;
     transition: 0.5s;
 }
-.techi:hover{
+
+.techi:hover {
     background-position: center;
     background-size: 105% 112%;
     transition: 0.5s;
 }
-.sign:hover{
+
+.sign:hover {
     background-position: center;
     background-size: 105% 112%;
     transition: 0.5s;
 }
+
 .protext {
     height: 100%;
     width: 100%;
     color: transparent;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
-.protext a{
+
+.protext a {
     text-decoration: none;
 }
-.protext:hover{
-    background-image: linear-gradient(to top , rgb(4, 72, 141) ,aqua,transparent, transparent);
+
+.protext:hover {
+    background-image: linear-gradient(to top, rgb(4, 72, 141), aqua, transparent, transparent);
     color: rgb(4, 0, 38);
     /* transition: 0.5s; */
 }
-.github{
+
+.github {
     font-size: 3vw;
     margin-top: 6vh;
     height: 5vw;
@@ -115,7 +142,8 @@
     border-radius: 100%;
     transition: 0.5s;
 }
-.open{
+
+.open {
     font-size: 2.2vw;
     margin-top: 6vh;
     height: 5vw;

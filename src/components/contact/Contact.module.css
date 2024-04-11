@@ -2,6 +2,15 @@
     height: 100vh;
     background-color:  rgb(4, 0, 38);
     color: white;
+    overflow: hidden;
+    /* display: flex; */
+    /* border: 2px solid whitesmoke; */
+}
+.formpart{
+    /* border: 2px solid whitesmoke; */
+    padding-top: 2vh;
+    display: flex;
+    justify-content: space-between;
 }
 .color{
     color: rgb(4, 0, 38);
@@ -75,4 +84,11 @@
 .form button:hover{
     background-color:aqua;
     color: rgb(4, 0, 38);
+}
+.pic{
+    /* border: 2px solid white; */
+}
+.pic img{
+    height: 47vw;
+    margin-left: 2vw;
 }

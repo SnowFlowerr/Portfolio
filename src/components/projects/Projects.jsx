@@ -15,13 +15,13 @@ export default function Projects() {
     document.getElementById('links2').style.backgroundColor = "transparent"
     document.getElementById('links2').style.color = "transparent"
   }
-  function Enternote() {
+  function Enterquiz() {
     document.getElementById('links3').style.backgroundColor = "white"
     document.getElementById('links4').style.backgroundColor = "white"
     document.getElementById('links3').style.color = "rgb(4, 0, 38)"
     document.getElementById('links4').style.color = "rgb(4, 0, 38)"
   }
-  function Leavenote() {
+  function Leavequiz() {
     document.getElementById('links3').style.backgroundColor = "transparent"
     document.getElementById('links3').style.color = "transparent"
     document.getElementById('links4').style.backgroundColor = "transparent"
@@ -63,13 +63,13 @@ export default function Projects() {
     document.getElementById('links10').style.backgroundColor = "transparent"
     document.getElementById('links10').style.color = "transparent"
   }
-  function Entercalc() {
+  function Enternote() {
     document.getElementById('links11').style.backgroundColor = "white"
     document.getElementById('links12').style.backgroundColor = "white"
     document.getElementById('links11').style.color = "rgb(4, 0, 38)"
     document.getElementById('links12').style.color = "rgb(4, 0, 38)"
   }
-  function Leavecalc() {
+  function Leavenote() {
     document.getElementById('links11').style.backgroundColor = "transparent"
     document.getElementById('links11').style.color = "transparent"
     document.getElementById('links12').style.backgroundColor = "transparent"
@@ -88,10 +88,10 @@ export default function Projects() {
               <a href="https://habbit-maker.vercel.app/" target='_blank'><div className={styles.open} id='links2'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
-          <div className={styles.note}>
-          <div className={styles.protext} onMouseEnter={Enternote} onMouseLeave={Leavenote}>
-              <a href="https://github.com/SnowFlowerr/Notes-Maker" target='_blank'><div className={styles.github} id='links3'><i class="fa-brands fa-github"></i></div></a>
-              <a href="https://notes-maker-hazel.vercel.app/" target='_blank'><div className={styles.open} id='links4'><i class="fa-solid fa-up-right-from-square"></i></div></a>
+          <div className={styles.quiz}>
+          <div className={styles.protext} onMouseEnter={Enterquiz} onMouseLeave={Leavequiz}>
+              <a href="https://github.com/SnowFlowerr/Quiz-Time" target='_blank'><div className={styles.github} id='links3'><i class="fa-brands fa-github"></i></div></a>
+              <a href="https://quiz-time-ten.vercel.app/" target='_blank'><div className={styles.open} id='links4'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
           <div className={styles.techi}>
@@ -114,10 +114,10 @@ export default function Projects() {
               <a href="https://sign-in-page-jade.vercel.app/" target='_blank'><div className={styles.open} id='links10'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
-          <div className={styles.calc}>
-          <div className={styles.protext} onMouseEnter={Entercalc} onMouseLeave={Leavecalc}>
-              <a href="https://github.com/SnowFlowerr/Calculator" target='_blank'><div className={styles.github} id='links11'><i class="fa-brands fa-github"></i></div></a>
-              <a href="https://calculator-weld-mu.vercel.app/" target='_blank'><div className={styles.open} id='links12'><i class="fa-solid fa-up-right-from-square"></i></div></a>
+          <div className={styles.note}>
+          <div className={styles.protext} onMouseEnter={Enternote} onMouseLeave={Leavenote}>
+              <a href="https://github.com/SnowFlowerr/Notes-Maker" target='_blank'><div className={styles.github} id='links11'><i class="fa-brands fa-github"></i></div></a>
+              <a href="https://notes-maker-hazel.vercel.app/" target='_blank'><div className={styles.open} id='links12'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
         </div>

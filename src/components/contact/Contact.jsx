@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './Contact.module.css'
+import picture from "../assets/picture.png"
 
 export default function Contact() {
   return (
     <div className={styles.ContactBox} id='contact'>
       <span className={styles.color}>Bhudeo Krit</span>
       <div className={styles.bigbox}>
+      <div className={styles.formpart}>
+        <div>
         <div className={styles.my}>My</div>
         <div className={styles.skill}>Contact</div>
         <div className={styles.form}>
@@ -31,6 +34,11 @@ export default function Contact() {
             <button>SEND MESSAGE</button>
           </form>
         </div>
+      </div>
+      <div className={styles.pic}>
+        <img src={picture} alt="Conpic"/>
+      </div>
+      </div>
       </div>
     </div>
   )
