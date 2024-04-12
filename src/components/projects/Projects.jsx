@@ -96,8 +96,8 @@ export default function Projects() {
           </div>
           <div className={styles.techi}>
           <div className={styles.protext} onMouseEnter={Entertechi} onMouseLeave={Leavetechi}>
-              <a href="https://github.com/SnowFlowerr/TechiSpot1" target='_blank'><div className={styles.github} id='links5'><i class="fa-brands fa-github"></i></div></a>
-              <a href="https://techi-spot-fawn.vercel.app/" target='_blank'><div className={styles.open} id='links6'><i class="fa-solid fa-up-right-from-square"></i></div></a>
+              <a href="https://github.com/SnowFlowerr/TechiSpott" target='_blank'><div className={styles.github} id='links5'><i class="fa-brands fa-github"></i></div></a>
+              <a href="https://techi-spott.vercel.app/" target='_blank'><div className={styles.open} id='links6'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
         </div>
