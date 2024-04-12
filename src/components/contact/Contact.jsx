@@ -77,9 +77,9 @@ export default function Contact() {
       await fetch("https://y3y9r9.api.infobip.com/whatsapp/1/message/template", requestOptions)
         .then((response) => response.text())
         .then((result) => console.log(result))
+        .then(()=>success("Sent Successfully"))
+        .then(()=>setContact({ name: "", email: "", message: "", phone: "" }))
         .catch((error) => console.error(error));
-      setContact({ name: "", email: "", message: "", phone: "" });
-      success("Sent Successfully")
     }
     else{
       error("Fill all the details")
