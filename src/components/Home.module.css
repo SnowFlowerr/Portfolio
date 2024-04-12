@@ -49,16 +49,16 @@
     font-size: 60px;
     color: aqua;
     /* border: 2px solid rgb(255, 255, 255); */
-    width: 4vw;
+    width: 60px;
     margin: auto;
     margin-top: 5vh;
-    height: 25vh;
     transition: 1s;
 }
 .arrow:hover{
     padding-top: 25vh;
-    /* font-size: 70px;
-    transition: 1s; */
+    width: 110px;
+    font-size: 100px;
+    transition: 1s;
 }
 .About{
     background-color: rgb(4, 0, 38);
