@@ -25,7 +25,7 @@
     width: 80%;
     margin: auto;
     color: rgb(255, 255, 255);
-    margin-top: 20vh;
+    margin-top: 17vh;
 }
 .knowinfo{
     font-size: 4.5vw;
@@ -45,7 +45,7 @@
     background-color: transparent;
     color: aqua;
     font-size: 15px;
-    margin-top: 5vh;
+    margin-top: 4vh;
 }
 .aboutbtn button:hover{
     background-color: aqua;
@@ -53,4 +53,43 @@
 }
 .AboutSec{
     font-size: 1.5vw;
+}
+@media screen and (max-width:600px) {
+    .AboutBox{
+        height: 50vh;
+    }
+    .pic {
+        height: 50vh;
+    }
+    .pic img{
+        height: 50vh;
+        width: 45vw;
+    }
+    .knowAbout{
+        width: 80%;
+        margin: auto;
+        color: rgb(255, 255, 255);
+        margin-top: 8vh;
+    }
+    .knowinfo{
+        font-size: 4.5vw;
+        font-weight: bold;
+    }
+    .knowAbout span{
+        font-size: 3vw;
+        color: aqua;
+    }
+    .aboutbtn button{
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 2vh;
+    }
+    .aboutbtn button:hover{
+        background-color: aqua;
+        color: rgb(4, 0, 38);
+    }
+    .AboutSec{
+        font-size: 1.5vw;
+    }
 }

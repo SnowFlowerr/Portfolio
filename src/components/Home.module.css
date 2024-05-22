@@ -6,6 +6,7 @@
     height: 100vh;
     background-image: url(./assets/3357684.jpg);
     background-size: cover;
+    background-position: center;
     transition: 2s;
 }
 .Navbar{
@@ -36,7 +37,7 @@
 }
 .intro{
     font-size: 3.5vw;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
     font-weight: bolder;
 }
 .intro span{
@@ -109,4 +110,67 @@
 }
 .linklogo a .phone{
     color: rgb(22, 166, 22);
+}
+.color{
+    position:fixed;
+    left: 96.5vw;
+    top: 10vh;
+    height: 40px;
+    width: 250px;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: aqua;
+    border-radius: 20px 0% 0% 20px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.color span i{
+    margin: 5px;
+    font-size: 30px;
+    color: aqua;
+    transition: 2s;
+}
+.color:hover span i{
+    display: none;
+    transition: 2s;
+}
+.ColorPicker{
+    visibility: hidden;
+    height: 40px;
+    transition: 0.5s;
+}
+.color:hover{
+    border-radius: 10px 0% 0% 10px;
+    left: 86.5vw;
+    height: 165px;
+    transition: 0.5s;
+}
+.color:hover .ColorPicker{
+    visibility: visible;
+    transition: 0.5s;
+}
+@media screen and (max-width:600px) {
+    .HomeBox{
+        height: 50vh;
+    }
+    .info{
+        padding-top: 14vh;
+    }
+    .mywork{
+        margin-top: 30px;
+        height: 25px;
+    }
+    .SelfIntro{
+        font-size: 10px;
+    }
+    .intro{
+        margin-bottom: 30px;
+    }
+    .arrow{
+        font-size: 20px;
+        margin-top: 2vh;
+    }
+    .linklogo{
+        top: 15vh;
+    }
 }

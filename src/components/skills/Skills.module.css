@@ -59,3 +59,27 @@
     font-weight: bold;
 
 }
+@media screen and (max-width:600px) {
+    .SkillsBox{
+        height: 50vh;
+        /* border: 2px solid white; */
+    }
+    .bigbox{
+        width: 90vw;
+        margin: auto;
+        margin-top: 6vh;
+    }
+    .skill{
+        font-size: 4.5vw;
+        font-weight: bold;
+    }
+    .box{
+        margin-top: 2.5vh;
+    }
+    .langbox{
+        /* border: 2px solid white; */
+        width: 40vw;
+        height: 4.5vh;
+        margin-bottom: 4vh;
+    }
+}

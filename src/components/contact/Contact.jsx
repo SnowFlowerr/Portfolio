@@ -79,7 +79,7 @@ export default function Contact() {
         .then((result) => console.log(result))
         .then(()=>success("Sent Successfully"))
         .then(()=>setContact({ name: "", email: "", message: "", phone: "" }))
-        .catch((error) => console.error(error));
+        .catch((error) => warning(error.message));
     }
     else{
       error("Fill all the details")
