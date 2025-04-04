@@ -25,7 +25,7 @@ export default function Home() {
                 <div className={styles.info}>
                     <div className={styles.intro}>
                         <span id='myname'><span className={styles.p}  id='myname'>I AM BHUDEO KRIT </span><br />
-                            & I AM A</span> FRONTEND WEBDEVELOPER.
+                            & I AM A</span> MERN-STACK WEBDEVELOPER.
                     </div>
                     <div className={styles.SelfIntro}>
                         I'm passionate about creating visually stunning designs that capture attention and tell compelling stories. With a background in graphic design and illustration, I specialize in bringing ideas to life through digital and print media.
