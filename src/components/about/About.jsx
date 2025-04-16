@@ -11,13 +11,13 @@ export default function About() {
           <div className={styles.knowAbout}>
             <div className={styles.knowinfo}><span>Know</span><br /> About Me</div><br />
             <div className={styles.AboutSec}>
-            <p>As an aspiring web developer with a strong foundation in HTML, CSS, JavaScript, Java, ReactJS, and various libraries, I am eager to kickstart my career in the exciting world of technology. My passion for web development ignited during self-paced learning and hands-on projects, where I discovered the thrill of bringing ideas to life through code.</p>
-            <p>What motivates me most about web development is the opportunity for perpetual growth and innovation. I am committed to staying abreast of the latest industry trends, experimenting with new tools and frameworks, and pushing the boundaries of my abilities to deliver cutting-edge solutions.</p>
+            <p>As an aspiring MERN stack developer with a strong foundation in HTML, CSS, JavaScript, Java, and ReactJS, I’m excited to begin my journey in the fast-paced world of full-stack web development. Through self-paced learning and hands-on projects, I discovered a deep passion for building modern, responsive applications that bring ideas to life from both the front and back end.</p>
+            <p>What excites me most about working with the MERN stack is the ability to create complete, end-to-end solutions using a single language—JavaScript. I’m continuously exploring new tools, frameworks, and best practices to stay ahead of the curve and sharpen my skills. With every project, I strive to push my limits, learn something new, and deliver clean, efficient, and impactful web experiences.</p>
             
             </div>
           <div className={styles.aboutbtn}>
             <a href="#contact"><button>Contact Me</button></a>
-            <a href="https://drive.google.com/file/d/1LCwH01PZI697OQEE3x23LSCln05NHlW4/view?usp=sharing" target='_blank' rel="noreferrer"><button>My Resume</button></a>
+            <a href="https://drive.google.com/file/d/1otR5rIWgGzp3gmAWPyLWEtCa2TazLCzN/view?usp=sharing" target='_blank' rel="noreferrer"><button>My Resume</button></a>
           </div>
         </div></div>
       </div>

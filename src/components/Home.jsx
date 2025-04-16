@@ -28,7 +28,7 @@ export default function Home() {
                             & I AM A</span> FRONTEND WEBDEVELOPER.
                     </div>
                     <div className={styles.SelfIntro}>
-                        I'm passionate about creating visually stunning designs that capture attention and tell compelling stories. With a background in graphic design and illustration, I specialize in bringing ideas to life through digital and print media.
+                    I’m a MERN stack developer with a deep passion for creating visually engaging and meaningful web experiences. With a background in graphic design and illustration, I specialize in blending form and function—turning ideas into beautiful, responsive applications using MongoDB, Express.js, React, and Node.js.
                     </div>
                     <a href="#about"><button className={styles.mywork}>Explore</button></a>
                     <div className={styles.arrow}><span>⬇︎</span></div>
