@@ -84,14 +84,14 @@ export default function Projects() {
         <div className={styles.proj}>
           <div className={styles.habbit}>
             <div className={styles.protext} onMouseEnter={Enterhabbit} onMouseLeave={Leavehabbit}>
-              <a href="https://github.com/SnowFlowerr/Habbit-Maker" target='_blank'><div className={styles.github} id='links1'><i class="fa-brands fa-github"></i></div></a>
-              <a href="https://habbit-maker.vercel.app/" target='_blank'><div className={styles.open} id='links2'><i class="fa-solid fa-up-right-from-square"></i></div></a>
+              <a href="https://github.com/SnowFlowerr/Youtube-Clone-Frontend" target='_blank'><div className={styles.github} id='links1'><i class="fa-brands fa-github"></i></div></a>
+              <a href="https://youtube-clone-snowflowerr.vercel.app/" target='_blank'><div className={styles.open} id='links2'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
           <div className={styles.quiz}>
           <div className={styles.protext} onMouseEnter={Enterquiz} onMouseLeave={Leavequiz}>
-              <a href="https://github.com/SnowFlowerr/Quiz-Time" target='_blank'><div className={styles.github} id='links3'><i class="fa-brands fa-github"></i></div></a>
-              <a href="https://quiz-time-ten.vercel.app/" target='_blank'><div className={styles.open} id='links4'><i class="fa-solid fa-up-right-from-square"></i></div></a>
+              <a href="https://github.com/SnowFlowerr/Wordie" target='_blank'><div className={styles.github} id='links3'><i class="fa-brands fa-github"></i></div></a>
+              <a href="https://wordie-brown.vercel.app/" target='_blank'><div className={styles.open} id='links4'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
           <div className={styles.techi}>
@@ -110,8 +110,8 @@ export default function Projects() {
           </div>
           <div className={styles.sign}>
           <div className={styles.protext} onMouseEnter={Entersign} onMouseLeave={Leavesign}>
-              <a href="https://github.com/SnowFlowerr/Sign-in-Page" target='_blank'><div className={styles.github} id='links9'><i class="fa-brands fa-github"></i></div></a>
-              <a href="https://sign-in-page-jade.vercel.app/" target='_blank'><div className={styles.open} id='links10'><i class="fa-solid fa-up-right-from-square"></i></div></a>
+              <a href="https://github.com/SnowFlowerr/RozgaarAI" target='_blank'><div className={styles.github} id='links9'><i class="fa-brands fa-github"></i></div></a>
+              <a href="https://rozgaar-ai.vercel.app/" target='_blank'><div className={styles.open} id='links10'><i class="fa-solid fa-up-right-from-square"></i></div></a>
             </div>
           </div>
           <div className={styles.note}>
