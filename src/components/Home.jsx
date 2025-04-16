@@ -25,7 +25,7 @@ export default function Home() {
                 <div className={styles.info}>
                     <div className={styles.intro}>
                         <span id='myname'><span className={styles.p}  id='myname'>I AM BHUDEO KRIT </span><br />
-                            & I AM A</span> FRONTEND WEBDEVELOPER.
+                            & I AM A</span> MERN-STACK WEB DEVELOPER.
                     </div>
                     <div className={styles.SelfIntro}>
                     I’m a MERN stack developer with a deep passion for creating visually engaging and meaningful web experiences. With a background in graphic design and illustration, I specialize in blending form and function—turning ideas into beautiful, responsive applications using MongoDB, Express.js, React, and Node.js.
